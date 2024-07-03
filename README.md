@@ -11,11 +11,17 @@
 
 Now you're set to go!
 
-## Changing the go-to remote
+## Changing the go-to remote to Overleaf
 
 To change which upstream remote is "wired" to your branch, use the `git branch` command with the upstream configuration flag.
 
 `git branch --set-upstream-to overleaf/master`
+
+## But what if I want to push to github?
+
+Then, you'll have to use the `terminal` again:
+
+`git push origin master`
 
 ## Workflow
 
@@ -25,5 +31,3 @@ This can be done by typing `git pull overleaf master` in the terminal.
 It makes sense to separate your latex files from your `R` code and your images.
 So, you could have a folder called `R`, one called `images` and one called `latex`.
 Then, you can reference the images in your `latex` folder by using the path `../images/`.
-
-When you want to push your changes to Overleaf, you can do so by typing `git push overleaf master` in the terminal.
