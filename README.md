@@ -30,4 +30,4 @@ This can be done by typing `git pull overleaf master` in the terminal.
 
 It makes sense to separate your latex files from your `R` code and your images.
 So, you could have a folder called `R`, one called `images` and one called `latex`.
-Then, you can reference the images in your `latex` folder by using the path `../images/`.
+Then, you can reference the images in your `latex` folder by using the path `images/`.
