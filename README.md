@@ -4,6 +4,7 @@
 
 1. Create a repository with github.
 1. Create a new project in RStudio using the github link.
+1. Create a token in Overleaf by going to `Account --> Account Settings --> Project Synchronisation --> Add another token`. You'll be prompted to add this token when connecting the Overleaf project to your RStudio.
 1. Create a project in Overleaf.
 1. Get the git link from Overleaf by going to `Menu --> git` and copying the url.
 1. Add this link as a remote called overleaf by typing the following into the terminal: `git remote add overleaf <url>`.
