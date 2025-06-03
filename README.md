@@ -40,4 +40,5 @@ In your local repository, it's most likely `main`.
 If this is the case, use this code:
 
 `git pull overleaf master:main`
+
 `git push overleaf main:master`
